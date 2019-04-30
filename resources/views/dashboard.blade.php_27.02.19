@@ -1,0 +1,109 @@
+@extends("crudbooster::admin_template")
+@section("content")
+<style>
+	#chartdiv {
+		width: 100%;
+		height: 300px;		
+	}
+
+	#chartdiv2 {
+		width: 100%;
+		height: 260px;
+	}
+
+</style>
+<div class="container">
+	<!-- <h3>Hello {{$user_details->name}}, Welcome to your Dashboard!</h3>
+	<div>
+	<a href="{{route('guidelines-instruction')}}">Guidelines & Instructions</a> | 
+	<a href="{{route('vouchers')}}">Vouchers</a>
+	</div> -->
+	<div class="row">
+		<div class="col-md-11 ">
+			From the Entry Vouchers in the left menu, the entries are directly & automatically posted in the Schedules, Registers, and Abstract Statements. Income & Expenditure Statement summary, Annexures, Books, required are automatically prepared. The Expenditure Statements could be submitted to the Election Commission of India. All the Expenditure Statements, Registers & Schedules required to Political Party are separately given.
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<div id="chartdiv"></div>
+				</div>
+					<!-- <div >
+				Total Expenses Limit: INR {{formatCurrency($total_expense_limit)}}<br>
+				Limit Exhausted: INR {{formatCurrency($limit_exhausted)}}<br>
+				Available Limit: INR {{formatCurrency($available_limit)}}
+				</div> -->
+				
+			</div>
+		</div>
+		<div class="col-lg-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">Graphical Representation of your Daily Expenses</div>
+				<div class="panel-body"><div id="chartdiv2"></div></div>				
+			</div>
+		</div>
+	</div>
+<!--	<div class="row">
+	<div class="col-sm-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">Graphical Representation of your Daily Expenses</div>
+				<div class="panel-body"><div id="chartdiv2"></div></div>
+			</div>
+		</div>
+	</div> -->
+	<div class="row">	
+
+		
+		<div class="col-sm-3">
+			<div class="panel panel-default">
+				<div class="panel-heading">Important Dates</div>
+				<div class="panel-body">
+					Date of Nomination: {{indianDateFormat($user_details->nomination_date)}}<br>
+					Date of Result: {{indianDateFormat($user_details->date_result)}}<br>
+					Sumission of Expenditure Statements: {{indianDateFormat($user_details->statement_submission_date)}}
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					Bank Balance: INR {{$bank_balance}}<br>
+					Cash in hand: INR {{$cash_balance}}<br>
+					Receipts from Party: INR {{$party_amount}}<br>
+					Receipts from Others: INR {{$other_amount}}<br>
+					Self Cash deposited in Bank for Expenses: INR {{$cash_deposit_in_bank}}<br>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="panel panel-default">
+				<div class="panel-heading">Recent Entries</div>
+				<div class="panel-body">
+					<ul>
+					@php $tran_type_array = ['Cr' => 'Credited','Dr' => 'Debited']; @endphp
+					@foreach($recent_records as $rr)
+					<li>INR {{formatCurrency($rr->tran_amount)}} - {{$tran_type_array[$rr->tran_type]}} on {{indianDateFormat($rr->tran_date)}}</li>
+					@endforeach
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="panel panel-default">
+				<div class="panel-heading">Points to Note:</div>
+				<div class="panel-body">
+					<ul>
+					@foreach($notes_regulation as $nr)
+					<li>{{$nr->content}}</li>
+					@endforeach
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<style type="text/css">
+	.rows{width: 100%; display: block;}
+</style>
+@endsection

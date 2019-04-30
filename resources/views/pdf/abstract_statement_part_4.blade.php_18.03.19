@@ -1,0 +1,220 @@
+
+<div class="print_area" id="print_area" style="width:100%;">
+
+<style type="text/css">
+  
+ <!--
+
+      @media print {
+         .print_space { height: 480px; }
+         tr.print_row { display: none; }
+      }
+      
+   -->
+
+  }
+</style>
+
+<div class="print_space"></div>
+
+<div class="tbl_scrl">
+
+<table width="100" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto; border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  <tr class="print_row">
+    <td align="center" valign="top" style="font-family: Arial; font-size: 16px; line-height: 25px; font-weight: bold;">PART- IV</td>
+    </tr>
+     <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="center" valign="top">FORM OF AFFIDAVIT</td>
+  </tr>
+  <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px; padding-bottom:5px;">&nbsp;
+                   
+          
+      </td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">
+      <table width="550" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="180" align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">Before the District Election Officer</td>
+    <td width="200" align="center" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{$state_name}}</td>
+    <td width="160" align="right" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">(District, State/Union Territory)</td>
+  </tr>
+</table>             
+          
+      </td>
+    </tr>
+    
+     <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">&nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px; padding-bottom:5px;">
+      <table width="550" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="125" align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">Affidavit of Shri/Smt/Ms</td>
+    <td width="345" align="center" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{$name}}</td>
+    <td width="80" align="right" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">(S/o, W/o, D/o)</td>
+  </tr>
+</table>             
+          
+      </td>
+    </tr>
+    
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px; padding-bottom:5px;"><table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="210" align="center" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{$guardian_name}}</td>
+          <td width="10" align="center" valign="top">I</td>
+          <td width="215" align="center" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{$name}}</td>
+          <td width="115" align="right" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">son/wife/daughter of</td>
+        </tr>
+      </table></td>
+    </tr>
+    
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px; padding-bottom:5px;">
+        <table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="230" align="left" valign="bottom" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{$guardian_name}}</td>
+          <td width="50" align="center" valign="bottom" style="font-family: Arial; font-size: 12px; line-height: 20px;">aged</td>
+          <td width="50" align="center" valign="bottom" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{$age}}</td>
+          <td width="60" align="center" valign="bottom" style="font-family: Arial; font-size: 12px; line-height: 20px;">years, r/o</td>
+          <td width="160" align="justify" valign="bottom" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{formatedAddress($cadidate_address,0)}} </td>
+          <!-- <td width="55" align="right" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">do hereby</td> -->
+        </tr>
+      </table>
+    </td>
+    </tr>
+
+    <tr>
+      <td align="left" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{formatedAddress($cadidate_address,1)}} &nbsp;</td>
+    </tr>
+    
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px; padding-bottom:5px;">do hereby solemnly and sincerely state and declare as under :-</td>
+    </tr>
+    
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">(1) That I was a contesting candidate at the general election/bye election to the House of the People /</td>
+    </tr>
+     
+    
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px; padding-bottom:5px;"><table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="130" align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">Legislative Assembly of</td>
+          <td width="420" align="center" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{$state_name}}</td>
+          </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px; padding-bottom:5px;"><table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="30" align="center" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">from</td>
+          <td width="520" align="center" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">@if($constituency_no) {{$constituency_no}}, @endif{{$constituency}}</td>
+          </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top"><table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="405" align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">Parliamentary/ Assembly constituency, the result of which was declared on</td>
+          <td width="140" align="left" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{indianDateFormat($date_result)}}</td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 14px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="padding-bottom:5px; font-family: Arial; font-size: 12px; line-height: 20px;">(2) That I/my election agent kept a separate and correct account of all expenditure incurred /</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;"><table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="395" align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">by me / my election agent in connection with the above election between</td>
+          <td width="105" align="left" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height: 20px;">{{indianDateFormat($nomination_date)}}</td>
+          <td width="50" align="right" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">(the date</td>
+          </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height: 20px;">on which I was nominated) and the date of declaration of the result thereof, both days inclusive.</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">(3) That the said account was maintained in the Register furnished by the Returning Officer for the purpose and the said Register itself is annexed hereto with the supporting vouchers/bills mentioned in the said account.</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">(4) That the account of my election expenditure as annexed hereto includes all items of election expenditure incurred or authorised by me or by my election agent, the political party which sponsored me, other associations / body of persons and other individuals supporting me, in connection with the election, and nothing has been concealed or withheld/suppressed therefrom (other than the expense on travel of leaders' covered by Explanations 1 and 2 under section 77 (1) of the Representation of the People Act, 1951).</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">(5) That the Abstract Statement of Election Expenses annexed as Annexure II to the said account also includes all expenditure incurred or authorised by me, my election agent, the political party which sponsored me, other associations / body of persons and other individuals supporting me, in connection with the election.</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">(6) That the statements in the foregoing paragraphs (1) to (5) are true to the best of my knowledge and belief, that nothing is false and nothing material has been concealed.</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">Deponent</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px;"><table width="550" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="155" align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">Solemnly affirmed/sworn by</td>
+          <td width="95" align="left" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height:20px;">&nbsp;</td>
+          <td width="20" align="center" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">at</td>
+          <td width="80" align="left" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height:20px;">&nbsp;</td>
+          <td width="90" align="center" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">this day of 201</td>
+          <td width="50" align="left" valign="top" style="border-bottom: 1px dotted #000; font-family: Arial; font-size: 12px; line-height:20px;">&nbsp;</td>
+          <td width="60" align="right" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">before me.</td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; padding-bottom:5px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top" style="font-family: Arial; font-size: 12px; line-height:20px;">(Signature and seal of the Attesting authority, i.e. Magistrate of the first Class or Oath Commission or Notary Public)</td>
+    </tr>
+    <tr>
+      <td align="left" valign="top">&nbsp;</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+</div>
+
+</div>
+
+

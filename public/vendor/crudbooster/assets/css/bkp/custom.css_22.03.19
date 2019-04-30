@@ -1,0 +1,521 @@
+body {background: #fefdcc; min-height: 100vh; }
+.content-wrapper {background: #fefdcc;}
+.wrapper { position: relative; min-height: 100vh;  }
+
+
+.content-header > h1 span.header-text-span { width: 60%; padding-right: 10px; display: block; }
+
+
+.skin-yellow .main-header .navbar, .skin-yellow .main-header .logo {background-color: #fefa75;}
+.skin-yellow .main-header .navbar .nav > li > a { color: #000; }
+.skin-yellow .main-header .navbar .nav > li > a:hover { background: none; color: #000; }
+.skin-yellow .main-header .navbar .sidebar-toggle { color: #000; }
+
+.skin-yellow .main-header .navbar .nav .open > a, .skin-yellow .main-header .navbar .nav .open > a:focus {background: rgba(0, 0, 0,1);}
+
+.skin-yellow .main-sidebar, .skin-yellow .left-side {background-color: #000;}
+
+.skin-yellow .main-header .logo{ color: #000;}
+.skin-yellow .main-header .logo:hover, .skin-yellow .main-header .navbar .sidebar-toggle:hover { background-color: #fefa75; color: #000;}
+
+.skin-yellow .sidebar-menu > li.active > a, .skin-yellow .sidebar-menu > li > a:hover {border-left-color: #fefa75;}
+
+.skin-yellow .wrapper, .skin-yellow .main-sidebar, .skin-yellow .left-side { background-color: #000; }
+
+.main-sidebar { padding-top: 0px; }
+
+
+.sidebar-menu { padding: 0 10px; }
+
+.skin-yellow .sidebar-menu > li  { margin: 0 0 5px;}
+.skin-yellow .sidebar-menu > li > a {border: 0px;}
+.sidebar-menu > li > a {padding: 12px 5px 12px 10px;  display: block;}
+
+.skin-yellow .sidebar-menu > li.active > a,
+.skin-yellow .sidebar-menu > li > a:hover,
+.skin-yellow .sidebar-menu > li > a:focus {
+    background: #35404d;
+    color: #fff;
+    display: block;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 0px;
+}
+
+.skin-yellow .sidebar-menu > li > a:hover i { color: #ff6c60; }
+.skin-yellow .sidebar-menu > li > .treeview-menu { background: #35404d;  border-radius: 0 0 4px 4px; padding: 8px 0 4px 15px; margin: -4px 0 0 0; }
+.skin-yellow .sidebar-menu > li.statements > .treeview-menu  { height: 250px; overflow-y: auto;}
+.skin-yellow .sidebar-menu > li > .treeview-menu::-webkit-scrollbar {width: 10px;}
+.skin-yellow .sidebar-menu > li > .treeview-menu::-webkit-scrollbar-track {background: #ccc;}
+.skin-yellow .sidebar-menu > li > .treeview-menu::-webkit-scrollbar-thumb {background: #888;}
+.skin-yellow .sidebar-menu > li > .treeview-menu::-webkit-scrollbar-thumb:hover {background: #555;}
+
+
+.dropdown-menu > li > a {  text-align: left; }
+
+
+.main-footer {background: #c12b2b;   color: #fefa75;    border-top: 0px ; bottom: 0; width: calc(100% - 230px); position: absolute; padding: 7px 15px; }
+body.sidebar-collapse .main-footer {width: 100%;}
+.main-footer strong { font-weight: normal; }
+
+.panel-default > .panel-heading {color: #fff;   background-color: #222; }
+
+
+#progressbar li.active:before, #progressbar li.active:after {background: #222!important;}
+
+#msform .action-button {background: #333!important;}
+#msform .action-button:hover, #msform .action-button:focus { box-shadow: 0 0 0 2px white, 0 0 0 3px #333!important;}
+
+
+
+.data_info { margin-bottom: 20px; }
+.data_info table, .imp_tble { width: 100%!important;  }
+.data_info table tr th, .data_info table tr td { padding: 8px; vertical-align: top; border: 1px solid #000; }
+.data_info table tr th { box-shadow: none;  }
+
+
+.loader { display: none; background: #000; opacity: 0.5; position: fixed; width: 100%; height: 100%; z-index: 10; }   
+.loader_txt { position: absolute;  top: 50%;  left: 50%;  font-size: 50px;  color: white;  transform: translate(-50%,-50%);  -ms-transform: translate(-50%,-50%); } 
+
+.navbar-nav > .user-menu > .dropdown-menu.cust_dp_menu  { width: 200px; } 
+.navbar-nav > .user-menu > .dropdown-menu.cust_dp_menu li a { color: #000; }
+.navbar-nav > .user-menu > .dropdown-menu.cust_dp_menu li a:hover { background: #e1e3e9; }
+.dropdown-toggle i { margin-right: 5px; }
+
+
+
+/*=== login page start===*/
+
+.login-logo {background: #fefa75; padding: 15px; margin: 0px; }
+.login-page {background: #fffdcd;}
+.login-box-body {background: #f5e65b; }
+.login-box-body {box-shadow:  none; }
+.login-box {box-shadow: 6px 6px 12px #d8d8d8; margin-top: 100px;}
+.btn-login {font-size: 17px; background: #222; padding: 8px; color: #fff; text-transform: uppercase; font-weight: 400;  box-shadow: 0 4px #000; transition: all 0.7s ease; width: 100%; border-radius: 0px;}
+.btn-login:hover {color: #666;}
+
+p.login-box-msg { padding: 15px; color: #000; }
+
+/*=== login page end===*/
+
+/* added on 6-2-2019 by rajarshi*/
+
+/*.form-horizontal */ label.error {color: red; font-size: 11px;}
+.sidebar-menu li > a > .pull-right { right: -10px; }
+.print_area { padding: 0 10px 10px;}
+
+
+.table_listing { border: 1px solid #ccc; padding: 10px; background: #fff;  }
+.table_listing table.dataTable thead > tr > th, .table_listing table thead > tr > th { background: #333; color: #fff; }
+.table_listing table.dataTable thead .sorting_asc::after, .table_listing table.dataTable thead .sorting::after { opacity: 1; }
+
+.tbl_list_scrl  {overflow-x: auto;}
+
+.main-header { position: relative; max-height: none; z-index: 1030; background: #fefa75;}
+.main-header .sidebar-toggle, .main-header .sidebar-toggle:hover, .main-header .sidebar-toggle:focus, .main-header .sidebar-toggle:active { background-color: #fefa75; background-image: none; padding: 10px 15px; font-family: fontAwesome; color: #000; position: absolute;top: 5px; left: 0; z-index: 9999;}
+.main-header>.navbar {margin-left: 0px;}
+
+.main-header .navbar-custom-menu { width: 50%; padding: 0 0 0 30px; }
+.main-header .navbar-custom-menu .navbar-nav { float:  right; }
+
+
+
+.user_info_header {width: 50%; margin: 5px 0; float: left; padding: 0 30px 0 45px;}
+
+
+.user_info_header .user_des{ display: table; }
+.user_info_header .user_des .user_txt{ display: table-cell; vertical-align: middle; position: relative; padding-left: 50px; height: 40px; }
+.user_info_header .user_des .user_txt .userphoto { position: absolute; left: 0; top: 0; }
+.user_info_header .user_des .user_txt span { font-size: 15px; line-height: 105%; }
+
+.party_logo_header{ position: absolute; left: 50%; top: 6px; margin-left: -20px;}
+.smlimg{width: 40px !important; height:40px !important; border-radius: 50%; }
+
+
+
+
+.top_date { background: #e5e3ad; padding: 15px 15px 0; border: 1px solid #ccc976; margin-bottom: 10px; }
+.top_date input[type="date"].form-control { height: auto; line-height: 100%; background: #fff; }
+.top_date button { margin-right: 5px; }
+
+.content-wrapper { padding-bottom: 20px; }
+.content { padding-bottom: 75px; min-height: 750px;}
+.content .container { padding-left: 0px; padding-right: 0px; } 
+
+
+input[type="date"].form-control { line-height: 100%; }
+/* added on 25-02-2019 */
+h1 span.link-conte-span{ font-size: 12px; top: 18px; right: 15px; position: absolute;}
+
+
+
+/* ====== dashboar page start ====== */
+
+.exp_dashboard p { padding-bottom: 20px; }
+.exp_dashboard .box_content {background: #fefa75; border: 1px solid #dad652; margin-bottom: 20px;}
+.exp_dashboard .box_content .heading { background: #333; padding: 10px; color: #fff; font-size: 15px; }
+.exp_dashboard .box_content .chart{ padding: 15px; }
+
+.exp_dashboard .box_content .txt { height: 200px; overflow-y: auto; padding: 15px; }
+.exp_dashboard .box_content .txt ul { margin: 0; padding: 0px; list-style: none; }
+.exp_dashboard .box_content .dt_row {border-bottom: 1px solid #666; padding: 5px 0; overflow: hidden;}
+.exp_dashboard .box_content .dt_row label { width: 60%; float: left; font-size: 12px; }
+.exp_dashboard .box_content .dt_row span { width: 35%; float: right; }
+
+.exp_dashboard .box_content .txt.bank { height: 242px; }
+
+.exp_dashboard .box_content .bnk_row {border-bottom: 1px solid #666; padding: 5px 0; overflow: hidden;}
+.exp_dashboard .box_content .bnk_row label { width: 55%; float: left; font-size: 12px; }
+.exp_dashboard .box_content .bnk_row span { width: 40%; float: right; text-align: right; font-size: 12px; }
+.exp_dashboard .box_content .bnk_row span i { float: left; margin-top: 5px; font-size: 12px; }
+
+.exp_dashboard .box_content .entries ul { margin: 0; padding: 0px; list-style: none; }
+.exp_dashboard .box_content .entries ul li {border-bottom: 1px solid #666; padding: 5px 0 5px 20px; overflow: hidden; font-size: 12px; position: relative;}
+.exp_dashboard .box_content .entries ul li i { font-size: 12px; }
+.exp_dashboard .box_content .entries ul li.Cr:before {content: "\f067"; font-family: FontAwesome; font-size: 8px; color: #fff; padding: 1px 4px;  background: #000; border-radius: 50%; position: absolute; left: 0; top: 6px; }
+.exp_dashboard .box_content .entries ul li.Dr:before {content: "\f068"; font-family: FontAwesome; font-size: 8px; color: #fff; padding: 1px 4px;  background: #000; border-radius: 50%; position: absolute; left: 0; top: 6px; }
+
+
+.exp_dashboard .box_content .note ul { margin: 0; padding: 0px; list-style: none; }
+.exp_dashboard .box_content .note ul li {border-bottom: 1px solid #666; padding: 5px 0 5px 20px; overflow: hidden; font-size: 12px; position: relative;}
+.exp_dashboard .box_content .note ul li i { font-size: 12px; }
+.exp_dashboard .box_content .note ul li:before {content: "\f00c"; font-family: FontAwesome; font-size: 12px; position: absolute; left: 0; top: 5px; }
+
+
+/* ====== dashboar page end ====== */
+
+
+
+
+
+/*======= sidebar menu icon start =========*/
+
+ul.sidebar-menu li a, .sidebar-menu .treeview-menu > li > a {padding-left: 35px; position:relative; white-space: normal;}
+ul.sidebar-menu li a i.icon, .sidebar-menu .treeview-menu > li > a i.icon {position:absolute; left:10px; top:15px; width:17px; background-image: url(../images/icon_all.png);}
+
+.sidebar-menu .treeview-menu > li > a i.icon { top: 8px; }
+
+ul.sidebar-menu li a i.dashboard  {height:15px; background-position: 0 -2px;}
+ul.sidebar-menu li a:hover i.dashboard  {background-position: 0 -20px;}
+
+ul.sidebar-menu li a i.profile  {height:15px; background-position: 0 -42px;}
+ul.sidebar-menu li a:hover i.profile  {background-position: 0 -68px;}
+
+ul.sidebar-menu li a i.cashdeposit  {height:17px; background-position: 0 -95px;}
+ul.sidebar-menu li a:hover i.cashdeposit  {background-position: 0 -120px;}
+
+ul.sidebar-menu li a i.cashparty  {height:15px; background-position: 0 -142px;}
+ul.sidebar-menu li a:hover i.cashparty  {background-position: 0 -158px;}
+
+ul.sidebar-menu li a i.cashentry  {height:10px; background-position: 0 -95px;}
+ul.sidebar-menu li a:hover i.cashentry  {background-position: 0 -120px;}
+
+ul.sidebar-menu li a i.bankdeposit  {height:14px; background-position: 0 -180px;}
+ul.sidebar-menu li a:hover i.bankdeposit  {background-position: 0 -202px;}
+
+ul.sidebar-menu li a i.cashbank  {height:17px; background-position: 0 -222px;}
+ul.sidebar-menu li a:hover i.cashbank  {background-position: 0 -247px;}
+
+ul.sidebar-menu li a i.received  {height:16px; background-position: 0 -272px;}
+ul.sidebar-menu li a:hover i.received  {background-position: 0 -292px;}
+
+ul.sidebar-menu li a i.expense  {height:16px; background-position: 0 -314px;}
+ul.sidebar-menu li a:hover i.expense  {background-position: 0 -336px;}
+
+ul.sidebar-menu li a i.purchase  {height:17px; background-position: 0 -362px;}
+ul.sidebar-menu li a:hover i.purchase  {background-position: 0 -387px;}
+
+ul.sidebar-menu li a i.print  {height:17px; background-position: 0 -412px;}
+ul.sidebar-menu li a:hover i.print  {background-position: 0 -437px;}
+
+ul.sidebar-menu li a i.register  {height:17px; background-position: 0 -464px;}
+ul.sidebar-menu li a:hover i.register  {background-position: 0 -489px;}
+
+
+ul.sidebar-menu li a i.indianrupee  {height:17px; background-position: 0 -519px;}
+ul.sidebar-menu li a:hover i.indianrupee  {background-position: 0 -542px;}
+
+ul.sidebar-menu li a i.allreceipts  {height:17px; background-position: 0 -566px;}
+ul.sidebar-menu li a:hover i.allreceipts  {background-position: 0 -591px;}
+
+ul.sidebar-menu li a i.arrowback  {height:17px; background-position: 0 -618px;}
+ul.sidebar-menu li a:hover i.arrowback  {background-position: 0 -640px;}
+
+ul.sidebar-menu li a i.cashdepositbank  {height:17px; background-position: 0 -669px;}
+ul.sidebar-menu li a:hover i.cashdepositbank  {background-position: 0 -696px;}
+
+ul.sidebar-menu li a i.cashreceipts  {height:17px; background-position: 0 -720px;}
+ul.sidebar-menu li a:hover i.cashreceipts  {background-position: 0 -748px;}
+
+ul.sidebar-menu li a i.depositself   {height:17px; background-position: 0 -775px;}
+ul.sidebar-menu li a:hover i.depositself  {background-position: 0 -806px;}
+
+ul.sidebar-menu li a i.expstatements  {height:17px; background-position: 0 -835px;}
+ul.sidebar-menu li a:hover i.expstatements  {background-position: 0 -863px;}
+
+ul.sidebar-menu li a i.guidelines  {height:17px; background-position: 0 -892px;}
+ul.sidebar-menu li a:hover i.guidelines  {background-position: 0 -914px;}
+
+ul.sidebar-menu li a i.incomeexp  {height:17px; background-position: 0 -1452px;}
+ul.sidebar-menu li a:hover i.incomeexp  {background-position: 0 -1478px;}
+
+ul.sidebar-menu li a i.noncash  {height:17px; background-position: 0 -940px;}
+ul.sidebar-menu li a:hover i.noncash  {background-position: 0 -963px;}
+
+ul.sidebar-menu li a i.purchaselog  {height:17px; background-position: 0 -991px;}
+ul.sidebar-menu li a:hover i.purchaselog  {background-position: 0 -1022px;}
+
+ul.sidebar-menu li a i.purchaseregister  {height:17px; background-position: 0 -1053px;}
+ul.sidebar-menu li a:hover i.purchaseregister  {background-position: 0 -1083px;}
+
+ul.sidebar-menu li a i.recordexpense  {height:17px; background-position: 0 -1115px;}
+ul.sidebar-menu li a:hover i.recordexpense  {background-position: 0 -1143px;}
+
+ul.sidebar-menu li a i.registerbooks  {height:17px; background-position: 0 -1173px;}
+ul.sidebar-menu li a:hover i.registerbooks  {background-position: 0 -1200px;}
+
+ul.sidebar-menu li a i.submitonline  {height:17px; background-position: 0 -1226px;}
+ul.sidebar-menu li a:hover i.submitonline  {background-position: 0 -1252px;}
+
+ul.sidebar-menu li a i.vouchers  {height:17px; background-position: 0 -1283px;}
+ul.sidebar-menu li a:hover i.vouchers  {background-position: 0 -1313px;}
+
+ul.sidebar-menu li a i.pettyexpenses  {height:17px; background-position: 0 -1342px;}
+ul.sidebar-menu li a:hover i.pettyexpenses  {background-position: 0 -1369px;}
+
+ul.sidebar-menu li a i.electionprofile  {height:17px; background-position: 0 -1400px;}
+ul.sidebar-menu li a:hover i.electionprofile  {background-position: 0 -1425px;}
+
+ul.sidebar-menu li a i.calendar  {height:17px; background-position: 0 -1506px;}
+ul.sidebar-menu li a:hover i.calendar  {background-position: 0 -1531px;}
+
+
+/*======= sidebar menu icon end =========*
+
+
+/*======= icon_b start =========*/
+
+.icon_b {background-image: url(../images/icon_b.png); height: 20px; display: inline-block; margin-right: 5px;}
+
+h1.actn-btn-hldr .icon_b { float: left; margin-top: 4px; }
+
+.indianrupee_b { width: 14px; background-position: 0 0;}
+
+.allreceipts_b { width: 20px; background-position: -19px 0;}
+
+.arrowback_b { width: 24px; background-position: -45px 0;}
+
+.cashdepositbank_b { width: 18px; background-position: -75px 0;}
+
+.cashreceipts_b { width: 20px; background-position: -104px 0;}
+
+.depositself_b { width: 21px; background-position: -132px 0;}
+
+.expstatements_b { width: 17px; background-position: -161px 0;}
+
+.guidelines_b { width: 25px; background-position: -187px 0;}
+
+.incomeexp_b { width: 20px; background-position: -219px 0;}
+
+.noncash_b { width: 25px; background-position: -249px 0;}
+
+.purchaselog_b { width: 20px; background-position: -284px 0;}
+
+.purchaseregister_b { width: 17px; background-position: -315px 0;}
+
+.recordexpense_b { width: 20px; background-position: -340px 0;}
+
+.registerbooks_b { width: 19px; background-position: -367px 0;}
+
+.submitonline_b { width: 17px; background-position: -391px 0;}
+
+.vouchers_b { width: 20px; background-position: -415px 0;}
+
+.pettyexpenses_b { width: 19px; background-position: -443px 0;}
+
+.electionprofile_b { width: 16px; background-position: -469px 0;}
+
+.calendar_b { width: 20px; background-position: -492px 0;}
+
+
+/*=======icon_b end =========*/
+
+/*======= icon_sm start =========*/
+
+.icon_sm {background-image: url(../images/icon_sm.png); height: 10px; display: inline-block; margin-right: 5px;}
+
+.indianrupee_sm { width: 10px; background-position: 0 0;}
+
+.allreceipts_sm { width: 10px; background-position: -10px 0;}
+
+.arrowback_sm { width: 14px; background-position: -22px 0;}
+
+.cashdepositbank_sm { width: 10px; background-position: -38px 0;}
+
+.cashreceipts_sm { width: 10px; background-position: -52px 0;}
+
+.depositself_sm { width: 12px; background-position: -66px 0;}
+
+.expstatements_sm { width: 10px; background-position: -80px 0;}
+
+.guidelines_sm { width: 13px; background-position: -94px 0;}
+
+.incomeexp_sm { width: 10px; background-position: -110px 0;}
+
+.noncash_sm { width: 13px; background-position: -124px 0;}
+
+.purchaselog_sm { width: 11px; background-position: -142px 0;}
+
+.purchaseregister_sm { width: 10px; background-position: -157px 0;}
+
+.recordexpense_sm { width: 10px; background-position: -170px 0;}
+
+.registerbooks_sm { width: 10px; background-position: -183px 0;}
+
+.submitonline_sm { width: 10px; background-position: -195px 0;}
+
+.vouchers_sm { width: 12px; background-position: -207px 0;}
+
+.pettyexpenses_sm { width: 12px; background-position: -221px 0;}
+
+.electionprofile_sm { width: 10px; background-position: -234px 0;}
+
+.calendar_sm { width: 10px; background-position: -250px 0;}
+
+
+/*=======icon_sm end =========*/
+
+
+/*======= icon_wh start =========*/
+
+.icon_wh {background-image: url(../images/icon_wh.png); height: 10px; display: inline-block; margin-right: 5px;}
+
+.indianrupee_wh { width: 10px; background-position: 0 0;}
+
+.allreceipts_wh { width: 10px; background-position: -10px 0;}
+
+.arrowback_wh { width: 14px; background-position: -22px 0;}
+
+.cashdepositbank_wh { width: 10px; background-position: -38px 0;}
+
+.cashreceipts_wh { width: 10px; background-position: -52px 0;}
+
+.depositself_wh { width: 12px; background-position: -66px 0;}
+
+.expstatements_wh { width: 10px; background-position: -80px 0;}
+
+.guidelines_wh { width: 13px; background-position: -94px 0;}
+
+.incomeexp_wh { width: 10px; background-position: -110px 0;}
+
+.noncash_wh { width: 13px; background-position: -124px 0;}
+
+.purchaselog_wh { width: 11px; background-position: -142px 0;}
+
+.purchaseregister_wh { width: 10px; background-position: -157px 0;}
+
+.recordexpense_wh { width: 10px; background-position: -170px 0;}
+
+.registerbooks_wh { width: 10px; background-position: -183px 0;}
+
+.submitonline_wh { width: 10px; background-position: -195px 0;}
+
+.vouchers_wh { width: 12px; background-position: -207px 0;}
+
+.pettyexpenses_wh { width: 12px; background-position: -221px 0;}
+
+.electionprofile_wh { width: 10px; background-position: -234px 0;}
+
+.calendar_wh { width: 10px; background-position: -250px 0;}
+
+
+/*=======icon_wh end =========*/
+
+
+.tbl_scrl  {overflow-x:  auto; padding-bottom: 10px;}
+
+
+/*======= Guidelines & Instruction start =========*/
+
+.guidelines_instruction {background: #edecba;  border: 1px solid #dad652; margin-bottom: 20px;}
+.guidelines_instruction .contenttxt { padding: 10px; }
+.guidelines_instruction h2 {background: #333; padding: 10px; color: #fff;  font-size: 20px; margin: 0;}
+.guidelines_instruction .box {border: 1px solid #ddd98f; border-radius: 0px; margin-bottom: 10px;}
+.guidelines_instruction .box:last-child { margin-bottom: 0px;}
+
+.guidelines_instruction .heading { background: #ddd; padding: 10px;  }
+.guidelines_instruction .heading h4 {font-size: 18px; margin: 0; padding: 0;}
+
+.guidelines_instruction .txt {padding: 10px 10px 10px 25px; background: #f0f0f0; border-bottom: 1px dashed #ddd; position: relative; }
+.guidelines_instruction .txt:before { content: ""; display: block; background: #d2cd1f; width: 10px; height: 10px; border-radius: 50%; position: absolute; left: 10px; top: 16px; }
+.guidelines_instruction .txt:last-child { border-bottom: 0px;}
+
+
+/*======= Guidelines & Instruction start end =========*/
+
+/*======== goto top start ========*/
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#000;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+    z-index: 9999;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#333;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+
+/*======== goto top end ========*/
+
+.dd-select { padding-right: 25px; }
+
+.spcl_wrp { position:  relative; }
+
+input[type="file"] { height: auto; }
+
+.annexure_tbl { overflow-x: auto; }
+
+.guidlines { float: right; }
+
+
+#piechart {width: 100%; height: 272px;}
+#chart_div {width: 100%; height: 272px;}
+
+
+label .voucher-text { font-weight: normal; font-size: 11px; }
+.expense-add-default { padding: 0 10px 10px; }
+
+a.guide-ins-label { color: #fff; }
+
+
+.panel .form-horizontal .panel-body, .form-horizontal .panel-footer{ padding: 10px!important; }
+
+
+

@@ -1,0 +1,44 @@
+﻿For creating own controller,route,view in crudbooster:
+
+in web.php:
+
+use crocodicstudio\crudbooster\middlewares\CBBackend;
+
+
+Route::group([
+'namespace' => 'crocodicstudio\crudbooster\controllers',
+'middleware' => ['web', CBBackend::class],
+], function () {
+Route::get('profile_edit/profile-edit', [
+'as' => 'admin/profile_edit/profile-edit',
+'uses' => 'AdminProfileEditController@getLogin',
+]);
+});
+
+you don’t need to write ‘as’ or ‘uses’ just write the simple laravel routing
+
+e.g
+Route::get('admin/dipentest','AdminTestController@myFunction'); 
+
+in controller:
+just load the view
+
+public function myFunction(){
+            return view('myfund');
+        }
+
+in the view file write normal form submit
+
+<form method='POST' action="{{url('/admin/dipentest/save')}}">
+@csrf
+
+don’t forget to write the @csrf otherwisw it will give the error: ”page expires due to inactivity” 
+
+in web.php 
+Route::post('admin/dipentest/save','AdminTestController@myFunctionSave');
+
+
+in controller write the function accordingly
+
+That’s all. 
+

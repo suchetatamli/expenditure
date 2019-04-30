@@ -1,0 +1,47 @@
+@media (max-width: 1199px) {}
+
+
+
+
+@media (max-width: 991px) {
+
+.navbar-nav > .user-menu > .dropdown-menu.cust_dp_menu { right: 0; }
+
+
+}
+
+
+
+
+@media (max-width: 767px) {
+
+.skin-yellow .main-header .navbar .nav .open > a, .skin-yellow .main-header .navbar .nav .open > a:focus {background: rgba(0, 0, 0,1);}
+
+
+
+.login-box { margin-top: 30px;}
+
+
+.user_info_header, .main-header .navbar-custom-menu { width: auto; float: none; }
+
+.user_info_header { padding-right: 60px; }
+
+.party_logo_header { left: auto; right: 15px; margin-left: 0px; }
+
+
+
+}
+
+
+
+@media (max-width: 639px) {}
+
+
+
+@media (max-width: 479px) {
+.user_info_header .user_des .user_txt span { font-size: 13px; }
+
+
+
+}
+
